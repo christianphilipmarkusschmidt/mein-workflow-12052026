@@ -1,0 +1,11 @@
+name: Hey Leute
+
+on:
+  push:
+
+jobs:
+  sag-hallo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Begrüßung
+        run: echo "Hallo aus GitHub Actions!"
